@@ -1,10 +1,10 @@
 {
   "name": "ftime",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "timeStamp format into Chinese",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
