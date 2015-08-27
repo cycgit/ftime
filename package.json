@@ -1,0 +1,22 @@
+{
+  "name": "ftime",
+  "version": "1.0.0",
+  "description": "timeStamp format into Chinese",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycgit/ftime.git"
+  },
+  "keywords": [
+    "timestamp"
+  ],
+  "author": "cyc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cycgit/ftime/issues"
+  },
+  "homepage": "https://github.com/cycgit/ftime#readme"
+}
