@@ -1,8 +1,8 @@
 {
   "name": "ftime",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "timeStamp format into Chinese",
-  "main": "index.js",
+  "main": "ftime.js",
   "scripts": {
     "test": "test"
   },
