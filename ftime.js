@@ -1,20 +1,19 @@
 module.exports = function(timestamp){
-    /*
-     * 默认为时间戳
-     * l为时间戳位 10或者13位
-     * 当l为0的时候 表示格式为2015-07-09 11:17:21
+     /*
+     * 输入时间戳 10或者13位
+     * 输出格式化时间
      */
-    
-    var regNum = /^(\d{10})|(\d{13})$/; //数字
-    if(regNum.test(timestamp)){
-        timestamp = timestamp.length == 10? timestamp*1000: timestamp;
+    var reg = /^([0-9]{10})|([0-9]{13})$/;
+    if(reg.test(timestamp)&&timestamp>0){
+
+        timestamp = timestamp.length == 10 ? timestamp*1000 : Number.parseInt(timestamp);
 
     }else{
-        return 'false'
+
+        return 'unkonow';
     }
-     
 
-
+    
      var now = new Date(),
          diff =  now.getTime()- timestamp,
          last = new Date(timestamp),
