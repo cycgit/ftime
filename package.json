@@ -1,10 +1,6 @@
 {
   "name": "ftime",
-<<<<<<< HEAD
-  "version": "0.1.0",
-=======
   "version": "0.4.1",
->>>>>>> 1d74cadae2321775371ed77d5a4a9dcdc7d411d7
   "description": "timeStamp format into Chinese",
   "main": "ftime.js",
   "scripts": {
