@@ -5,7 +5,9 @@ module.exports = function(timestamp){
      */
     var reg = /^([0-9]{10})|([0-9]{13})$/;
     if(reg.test(timestamp)&&timestamp>0){
-        timestamp = timestamp.length == 10 ? timestamp*1000 : timestamp;
+
+        timestamp = timestamp.length == 10 ? timestamp*1000 : Number.parseInt(timestamp);
+
     }else{
 
         return 'unkonow';
