@@ -8,10 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cycgit/ftime.git"
+    "url": "https://github.com/cycgit/ftime"
   },
   "keywords": [
-    "timestamp"
+    "timestamp",
+    "Chinese",
+    "format"
   ],
   "author": "cyc",
   "license": "MIT",

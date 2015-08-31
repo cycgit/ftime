@@ -3,6 +3,10 @@ module.exports = function(timestamp){
      * 输入时间戳 10或者13位
      * 输出格式化时间
      */
+     if(!timestamp){
+        throw new TypeError('timestamp required')
+     }
+
     var reg = /^([0-9]{10})|([0-9]{13})$/;
     if(reg.test(timestamp)&&timestamp>0){
 
