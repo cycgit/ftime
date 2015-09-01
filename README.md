@@ -1,5 +1,5 @@
 #ftime
-格式化时间戳的包
+输入时间戳返回格式后的时间
 ``npm install ftime``
 
 ```
