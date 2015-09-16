@@ -12,14 +12,14 @@
     var ftime = function(timestamp){
 
          if(!timestamp){
-            throw new TypeError('timestamp required')
+            throw new Error('timestamp required')
          }
 
         var reg = /^([0-9]{10})|([0-9]{13})$/;
         if(reg.test(timestamp)&&timestamp>0){
             timestamp = timestamp.length == 10 ? timestamp*1000 : Number.parseInt(timestamp);
         }else{
-            return 'unkonow';
+            return 'unknow';
         }
          var now = new Date(),
              diff =  now.getTime()- timestamp,
