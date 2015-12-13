@@ -1,5 +1,7 @@
 
+
 //我再试试啊啊 222
+
 var ft = require('../ftime');
 var assert = require('assert');
 describe('ftimeTest', function(){
