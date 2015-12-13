@@ -1,5 +1,5 @@
 
-//我再试试啊啊 222
+//我来打一个标记
 var ft = require('../ftime');
 var assert = require('assert');
 describe('ftimeTest', function(){
