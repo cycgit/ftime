@@ -1,5 +1,5 @@
 
-//这是注释
+//这是我提交的
 var ft = require('../ftime');
 var assert = require('assert');
 describe('ftimeTest', function(){
