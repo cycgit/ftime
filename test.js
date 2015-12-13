@@ -1,3 +1,5 @@
+
+//这是注释
 var ft = require('../ftime');
 var assert = require('assert');
 describe('ftimeTest', function(){
