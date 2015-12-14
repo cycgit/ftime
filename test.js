@@ -1,5 +1,5 @@
 
-//测试2
+//测试3
 var ft = require('../ftime');
 var assert = require('assert');
 describe('ftimeTest', function(){
