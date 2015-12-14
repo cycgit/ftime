@@ -1,5 +1,5 @@
 
-//我来打两个标记
+//测试git
 var ft = require('../ftime');
 var assert = require('assert');
 describe('ftimeTest', function(){
